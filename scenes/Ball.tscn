@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3]
+
+[node name="Ball" type="RigidBody2D"]
+script = ExtResource("res://scripts/Ball.gd")
+position = Vector2(320, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = CircleShape2D {
+    radius = 10.0
+}

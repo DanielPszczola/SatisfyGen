@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/Ball.tscn" id=1]
+[node name="Main" type="Node2D"]
+script = ExtResource("res://scripts/Main.gd")
+
+[node name="SpawnTimer" type="Timer" parent="."]
+wait_time = 0.5
+autostart = true
+one_shot = false
