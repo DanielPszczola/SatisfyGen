@@ -8,3 +8,8 @@ script = ExtResource("res://scripts/Main.gd")
 wait_time = 0.5
 autostart = true
 one_shot = false
+
+[node name="ResetTimer" type="Timer" parent="."]
+wait_time = 12.0
+autostart = true
+one_shot = false
