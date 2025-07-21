@@ -1,3 +1,11 @@
 [gd_resource type="Resource" load_steps=2 format=3 uid="uid://project"]
 
 config_version = 4
+
+[application]
+config/name="SatisfyGen"
+run/main_scene="res://scenes/Main.tscn"
+
+[display]
+window/size/width=640
+window/size/height=480
