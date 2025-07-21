@@ -1,7 +1,9 @@
 [gd_scene load_steps=2 format=3]
 
+[ext_resource type="Script" path="res://scripts/Ball.gd" id=1]
+
 [node name="Ball" type="RigidBody2D"]
-script = ExtResource("res://scripts/Ball.gd")
+script = ExtResource(1)
 position = Vector2(320, 0)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
