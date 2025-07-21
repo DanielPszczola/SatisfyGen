@@ -1,0 +1,6 @@
+# Ignore Godot import files and temporary data
+.import/
+*.import
+.export/
+*.tmp
+.DS_Store
